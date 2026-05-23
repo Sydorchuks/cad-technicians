@@ -4,7 +4,7 @@ import About from "./pages/About/About";
 import Services from "./pages/Services/Services";
 import Contact from "./pages/Contact/Contact";
 
-export default function App({ children }: { children: React.ReactNode }) {
+export default function App() {
   return (
     <BrowserRouter>
       <Routes>
